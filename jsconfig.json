@@ -1,11 +1,16 @@
 {
     "compilerOptions": {
-        "baseUrl": ".",
+        "target": "ES6", // Hỗ trợ các tính năng ES6+
+        "module": "commonjs", // Hoặc "esnext" nếu bạn sử dụng import/export
+        "jsx": "react", // Hỗ trợ JSX (hoặc "react-jsx" nếu bạn dùng React 17+)
+        "allowSyntheticDefaultImports": true, // Hỗ trợ import mặc định
+        "baseUrl": ".", // Đường dẫn cơ sở cho các module
         "paths": {
-            "@/components/*": ["components/*"],
-            "@/service/*": ["service/*"],
-            "@/data/*": ["data/*"]
+            "@/components/*": ["components/*"], // Alias cho components
+            "@/service/*": ["service/*"], // Alias cho service
+            "@/data/*": ["data/*"] // Alias cho data
         }
     },
-    "exclude": ["./node_modules", "./dist"]
+    "include": ["src/**/*"], // Đảm bảo chỉ bao gồm mã nguồn trong thư mục src
+    "exclude": ["./node_modules", "./dist"] // Loại trừ node_modules và thư mục build
 }
