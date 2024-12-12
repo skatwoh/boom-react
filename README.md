@@ -1,31 +1,28 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/primereact.svg)](https://badge.fury.io/js/primereact)
-[![primereact](https://snyk.io/advisor/npm-package/primereact/badge.svg)](https://snyk.io/advisor/npm-package/primereact)
-![NPM Downloads](https://img.shields.io/npm/dm/primereact?color=purple)
-[![Actions CI](https://github.com/primefaces/primereact/workflows/NodeJS%20CI/badge.svg)](https://github.com/primefaces/primereact/actions/workflows/node.js.yml)
-[![Discord Chat](https://img.shields.io/discord/557940238991753223.svg?color=7289da&label=chat&logo=discord)](https://discord.gg/gzKFYnpmCY)
-[![Stackoverflow](https://img.shields.io/badge/StackOverflow-primereact-chocolate.svg)](https://stackoverflow.com/questions/tagged/primereact)
-[![Prime Discussions](https://img.shields.io/github/discussions-search?query=org%3Aprimefaces&logo=github&label=Prime%20Discussions&link=https%3A%2F%2Fgithub.com%2Forgs%2Fprimefaces%2Fdiscussions)](https://github.com/orgs/primefaces/discussions)
+[![npm version](https://badge.fury.io/js/boom-react.svg)](https://badge.fury.io/js/boom-react)
+![NPM Downloads](https://img.shields.io/npm/dm/boom-react?color=purple)
 
-[![PrimeReact Hero](https://www.primefaces.org/static/social/primereact-preview.jpg)](https://www.primereact.org)
+<!-- [![Boom-react Hero](https://www.primefaces.org/static/social/primereact-preview.jpg)](https://www.primereact.org) -->
 
-# PrimeReact
+# Boom-react
 
-PrimeReact is a rich set of open source UI Components for React. See [PrimeReact homepage](https://primereact.org/) for live showcase and documentation.
+Boom-react is a rich set of open source UI Components for React. See [Boom-react homepage]() for live showcase and documentation.
+
+This library is built upon Primereact and extends its functionality to better suit the needs of specific projects.
 
 ## Download
 
-PrimeReact is available at [npm](https://www.npmjs.com/package/primereact).
+Boom-react is available at [npm](https://www.npmjs.com/package/boom-react).
 
 ```
 # Using npm
-npm install primereact
+npm install boom-react
 
 # Using yarn
-yarn add primereact
+yarn add boom-react
 
 # Using pnpm
-pnpm add primereact
+pnpm add boom-react
 ```
 
 ## Import
@@ -45,7 +42,7 @@ export default function MyComponent() {
 
 ## Theming
 
-PrimeReact has two theming modes; styled or unstyled.
+Boom-react has two theming modes; styled or unstyled.
 
 **Styled Mode**
 
@@ -62,6 +59,6 @@ Unstyled mode is disabled by default for all components. Using the PrimeReact co
 
 ## Contributors
 
-<a href="https://github.com/primefaces/primereact/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=primefaces/primereact" />
+<a href="https://github.com/skatwoh/boom-react/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=skatwoh/boom-react" />
 </a>
