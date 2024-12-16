@@ -30,12 +30,12 @@ pnpm add boom-react
 Each component can be imported individually so that you only bundle what you use. Import path is available in the documentation of the corresponding component.
 
 ```javascript
-//import { ComponentName } from 'primereact/{componentname}';
-import { Button } from 'primereact/button';
+//import { ComponentName } from 'boom-react/dist/{componentname}';
+import { Button } from 'boom-react/dist/button';
 
 export default function MyComponent() {
   return (
-    <Button label="PrimeReact" />
+    <Button label="Boom-react" />
   )
 }
 ```

@@ -334,22 +334,21 @@ function addPrimeReact() {
 function addPackageJson() {
     const outputDir = path.resolve(__dirname, process.env.OUTPUT_DIR);
     const packageJson = `{
-    "name": "primereact",
+    "name": "boom-react",
     "version": "${pkg.version}",
     "private": false,
-    "author": "PrimeTek Informatics",
-    "description": "PrimeReact is an open source UI library for React featuring a rich set of 90+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeBlock, which has 370+ ready to use UI blocks to build spectacular applications in no time.",
-    "homepage": "https://www.primereact.org",
+    "description": "boom-react is an open source UI library for React featuring a rich set of 90+ components, a theme designer, various theme alternatives such as Material, Bootstrap, Tailwind, premium templates and professional support. In addition, it integrates with PrimeBlock, which has 370+ ready to use UI blocks to build spectacular applications in no time.",
+    "homepage": "https://www.boom-react.org",
     "repository": {
         "type": "git",
-        "url": "https://github.com/primefaces/primereact.git"
+        "url": "https://github.com/skatwoh/boom-react.git"
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/primefaces/primereact/issues"
+        "url": "https://github.com/skatwoh/boom-react/issues"
     },
     "keywords": [
-        "primereact",
+        "boom-react",
         "react",
         "hooks",
         "next",
